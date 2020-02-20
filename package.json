@@ -1,0 +1,17 @@
+{
+  "name": "find-missing-number",
+  "version": "1.0.0",
+  "description": "Find a missing number in array",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/index.ts",
+    "start": "nodemon ./dist/index.js",
+    "prod": "npm run build && npm run start"
+  },
+  "author": "DatPTT",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
